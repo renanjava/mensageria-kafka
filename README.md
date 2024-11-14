@@ -8,6 +8,7 @@
 
 ## Stack utilizada
 
+- java: 11
 - node: v20.11.1
 - mongoose: ^8.5.2
 - jest: ^29.7.0
