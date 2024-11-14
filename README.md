@@ -6,15 +6,14 @@
 
 ...
 
-
 ## Stack utilizada
 
-* mongoose: ^8.5.2
-* jest: ^29.7.0
-* supertest: ^6.3.4
-* axios: ^1.7.4
-* bcrypt: ^5.1.1
-
+- node: v20.11.1
+- mongoose: ^8.5.2
+- jest: ^29.7.0
+- supertest: ^6.3.4
+- axios: ^1.7.4
+- bcrypt: ^5.1.1
 
 ## Instalação
 
