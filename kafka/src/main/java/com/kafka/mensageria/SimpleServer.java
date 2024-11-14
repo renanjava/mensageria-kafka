@@ -12,13 +12,9 @@ public class SimpleServer {
     public static void main(String[] args) throws IOException {
         int port = 3001;
         HttpServer server = HttpServer.create(new InetSocketAddress(port), 0);
-
         server.createContext("/", new RootHandler());
-
         server.setExecutor(null);
-
         System.out.println("Servidor rodando na porta " + port);
-        
         server.start();
     }
 
@@ -26,7 +22,6 @@ public class SimpleServer {
         @Override
         public void handle(HttpExchange exchange) throws IOException {
             String response = "Olá, servidor em Java está rodando!";
-            
             exchange.sendResponseHeaders(200, response.getBytes().length);
             OutputStream os = exchange.getResponseBody();
             os.write(response.getBytes());

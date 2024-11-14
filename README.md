@@ -8,6 +8,8 @@
 
 ## Stack utilizada
 
+- nginx: 1.26.2
+- docker: 26.1.1
 - java: 11
 - node: v20.11.1
 - mongoose: ^8.5.2
