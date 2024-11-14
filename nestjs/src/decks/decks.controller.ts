@@ -21,7 +21,7 @@ import { FileInterceptor } from '@nestjs/platform-express';
 
 @Controller('decks')
 export class DecksController {
-  constructor(private readonly decksService: DecksService) { }
+  constructor(private readonly decksService: DecksService) {}
 
   @UseGuards(JwtAuthGuard)
   @Post('generate')
@@ -54,15 +54,18 @@ export class DecksController {
 
   @Post('upload')
   @UseInterceptors(FileInterceptor('file'))
-  async uploadFile(@UploadedFile(
-    new ParseFilePipe({
-      validators: [
-        new FileTypeValidator({
-          fileType: 'json'
-        })
-      ]
-    })
-  ) file: Express.Multer.File) {
+  async uploadFile(
+    @UploadedFile(
+      new ParseFilePipe({
+        validators: [
+          new FileTypeValidator({
+            fileType: 'json',
+          }),
+        ],
+      }),
+    )
+    file: Express.Multer.File,
+  ) {
     return await this.decksService.fileValidate(file);
   }
 }

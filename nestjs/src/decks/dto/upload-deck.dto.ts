@@ -1,3 +1,3 @@
-import { DeckDto } from "./deck.dto";
+import { DeckDto } from './deck.dto';
 
-export class UploadDeckDto extends DeckDto { }
+export class UploadDeckDto extends DeckDto {}

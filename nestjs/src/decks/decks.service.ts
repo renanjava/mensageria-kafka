@@ -2,7 +2,7 @@ import { BadRequestException, Inject, Injectable } from '@nestjs/common';
 import { CreateDeckDto } from './dto/create-deck.dto';
 import { DecksRepository } from './decks.repository';
 import axios from 'axios';
-import { CardSchema, Deck } from './schema/deck.schema';
+import { Deck } from './schema/deck.schema';
 import { JwtService } from '@nestjs/jwt';
 import { ConfigService } from '@nestjs/config';
 import { UserRepository } from '@/users/user.repository';
@@ -19,7 +19,7 @@ export class DecksService {
     private readonly configService: ConfigService,
     private readonly userRepository: UserRepository,
     @Inject(CACHE_MANAGER) private cacheManager: Cache,
-  ) { }
+  ) {}
 
   async createDeck(createDeckDto: CreateDeckDto): Promise<Deck> {
     return this.deckRepository.create(createDeckDto);
@@ -94,7 +94,9 @@ export class DecksService {
     allowedColors = commander.colorIdentity;
     allowedColors.forEach((e) => {
       const logicForSorting = cardQuantity - colorQuantity + index;
-      const valueForSorting = Math.floor(Possibilities.sortedPossibilities(logicForSorting));
+      const valueForSorting = Math.floor(
+        Possibilities.sortedPossibilities(logicForSorting),
+      );
       let sortedNumber;
       if (allowedColors[allowedColors.length - 1] != e)
         sortedNumber = Math.floor(Math.random() * valueForSorting);
@@ -144,12 +146,16 @@ export class DecksService {
   async fileValidate(file: Express.Multer.File) {
     const jsonFile = JSON.parse(file.buffer.toString('utf8'));
     const uploadDeckDto = plainToInstance(UploadDeckDto, jsonFile);
-    const commander = uploadDeckDto.cards.filter((e) => e.name == uploadDeckDto.commander)
-    const commanderColors = commander[0].colorIdentity
+    const commander = uploadDeckDto.cards.filter(
+      (e) => e.name == uploadDeckDto.commander,
+    );
+    const commanderColors = commander[0].colorIdentity;
     uploadDeckDto.cards.forEach((cartas) => {
-      if (!(commanderColors.some(cores => cartas.colorIdentity.includes(cores))))
-        throw new BadRequestException()
-    })
+      if (
+        !commanderColors.some((cores) => cartas.colorIdentity.includes(cores))
+      )
+        throw new BadRequestException();
+    });
     return uploadDeckDto;
   }
 }

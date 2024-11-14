@@ -8,7 +8,7 @@ import { CreateDeckDto } from './dto/create-deck.dto';
 export class DecksRepository {
   constructor(
     @InjectModel(Deck.name) private readonly deckModel: Model<Deck>,
-  ) { }
+  ) {}
 
   async create(createDeckDto: CreateDeckDto): Promise<Deck> {
     const createdDeck = new this.deckModel(createDeckDto);

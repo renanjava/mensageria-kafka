@@ -18,4 +18,4 @@ import { CacheModule } from '@nestjs/cache-manager';
   controllers: [DecksController],
   providers: [DecksService, DecksRepository, JwtService, ConfigService],
 })
-export class DecksModule { }
+export class DecksModule {}

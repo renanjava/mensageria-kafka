@@ -1,4 +1,4 @@
-name: pre-push
+name: node-pre-push
 on:
   push:
     branches:
@@ -17,5 +17,7 @@ jobs:
           node-version: 20.11.1
       - name: Instala as dependencias
         run: npm i
+        working-directory: nestjs
       - name: Roda o linter
         run: npm run lint
+        working-directory: nestjs

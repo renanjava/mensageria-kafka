@@ -14,7 +14,7 @@ export class UserService {
     protected readonly userRepository: UserRepository,
     protected readonly adapter: UserAdapter,
     protected readonly token: Token,
-  ) { }
+  ) {}
 
   public async create(newUser: CreateUserDto): Promise<void> {
     const existsUser: User | null = await this.validateEmailOrUsername(newUser);
@@ -24,7 +24,9 @@ export class UserService {
     }
 
     const createUserDto = this.adapter.createToEntity(newUser);
-    createUserDto.password = await Password.generateEncrypted(createUserDto.password);
+    createUserDto.password = await Password.generateEncrypted(
+      createUserDto.password,
+    );
     await this.userRepository.create(createUserDto);
   }
 
