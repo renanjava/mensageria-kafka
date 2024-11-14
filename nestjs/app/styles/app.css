@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 20px;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: background-color 0.3s;
+    display: flex; /* Flex para alinhar ícones e texto*/
+    align-items: center; /* Alinha verticalmente*/
+}
+
+li:hover {
+    background-color: #eaeaea;
+}
+
+.message {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #dff0d8; /* Verde claro para sucesso*/
+    color: #3c763d; /*Texto verde escuro*/
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+.loading {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #666;
+}

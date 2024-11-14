@@ -1,0 +1,6 @@
+casos que devem dar erros:
+- não ter o nome do commander
+- não ter cards
+- não ter 100 cartas no total
+- nome do commander não constar em cards
+- cores diferentes do commander

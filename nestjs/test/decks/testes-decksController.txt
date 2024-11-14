@@ -1,0 +1,3 @@
+- a rota com cache deve ter mais requisições que a rota sem cache com ambas configuradas iguais
+- a rota de gerar deck deve ter sempre um usuário já cadastrado associado ao deck
+- o findAll só pode ser acessado pelo admin

@@ -1,0 +1,3627 @@
+{
+    "commander": "Atraxa, Praetors' Voice",
+    "cards": [
+        {
+            "name": "Afflict",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Instant",
+            "supertypes": [],
+            "types": [
+                "Instant"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Target creature gets -1/-1 until end of turn.\nDraw a card.",
+            "artist": "Roger Raupp",
+            "number": "125",
+            "layout": "normal",
+            "multiverseid": "135206",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135206&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556ce",
+            "rulings": []
+        },
+        {
+            "name": "Agonizing Memories",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Look at target player's hand and choose two cards from it. Put them on top of that player's library in any order.",
+            "artist": "Adam Rex",
+            "number": "126",
+            "layout": "normal",
+            "multiverseid": "135228",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135228&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556cf",
+            "rulings": []
+        },
+        {
+            "name": "Atraxa, Praetors' Voice",
+            "manaCost": "{G}{W}{U}{B}",
+            "cmc": 4,
+            "colors": [
+                "B",
+                "G",
+                "U",
+                "W"
+            ],
+            "colorIdentity": [
+                "B",
+                "G",
+                "U",
+                "W"
+            ],
+            "type": "Legendary Creature — Phyrexian Angel Horror",
+            "supertypes": [
+                "Legendary"
+            ],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Phyrexian",
+                "Angel",
+                "Horror"
+            ],
+            "rarity": "Mythic",
+            "set": "2XM",
+            "setName": "Double Masters",
+            "text": "Flying, vigilance, deathtouch, lifelink\nAt the beginning of your end step, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+            "artist": "Victor Adame Minguez",
+            "number": "190",
+            "power": "4",
+            "toughness": "4",
+            "layout": "normal",
+            "multiverseid": "489863",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=489863&type=card",
+            "variations": [
+                "f9924588-6741-531a-a72b-16e1248234e8"
+            ],
+            "rulings": [
+                {
+                    "date": "2023-02-04",
+                    "text": "An ability that triggers \"Whenever you proliferate\" triggers even if you chose no permanents or players while doing so.",
+                    "_id": "66f5f13b3fd68951ea1556c8"
+                },
+                {
+                    "date": "2023-02-04",
+                    "text": "If a permanent ever has both +1/+1 counters and -1/-1 counters on it at the same time, they're removed in pairs as a state-based action so that the permanent has only one of those kinds of counters on it.",
+                    "_id": "66f5f13b3fd68951ea1556c9"
+                },
+                {
+                    "date": "2023-02-04",
+                    "text": "If a player or permanent has more than one kind of counter on it, and you choose for it to get additional counters, it must get one of each kind of counter it already has. You can't have it get just one kind of counter it already has and not the others.",
+                    "_id": "66f5f13b3fd68951ea1556ca"
+                },
+                {
+                    "date": "2023-02-04",
+                    "text": "Players can respond to a spell or ability whose effect includes proliferating. Once that spell or ability starts to resolve, however, and its controller chooses which permanents and players will get new counters, it's too late for anyone to respond.",
+                    "_id": "66f5f13b3fd68951ea1556cb"
+                },
+                {
+                    "date": "2023-02-04",
+                    "text": "To proliferate, you can choose any permanent that has a counter, including ones controlled by opponents. You can choose any player who has a counter, including opponents. You can't choose cards in any zone other than the battlefield, even if they have counters on them.",
+                    "_id": "66f5f13b3fd68951ea1556cc"
+                },
+                {
+                    "date": "2023-02-04",
+                    "text": "You don't have to choose every permanent or player that has a counter, only the ones you want to add another counter to. Since \"any number\" includes zero, you don't have to choose any permanents at all, and you don't have to choose any players at all.",
+                    "_id": "66f5f13b3fd68951ea1556cd"
+                }
+            ],
+            "_id": "66f5f13a3fd68951ea1556c7"
+        },
+        {
+            "name": "Ascendant Evincar",
+            "manaCost": "{4}{B}{B}",
+            "cmc": 6,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Legendary Creature — Phyrexian Vampire Noble",
+            "supertypes": [
+                "Legendary"
+            ],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Phyrexian",
+                "Vampire",
+                "Noble"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nOther black creatures get +1/+1.\nNonblack creatures get -1/-1.",
+            "artist": "Mark Zug",
+            "number": "127",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": "106525",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=106525&type=card",
+            "variations": [
+                "c206ab94-4325-5766-91d6-62b8f50aeac8"
+            ],
+            "rulings": [
+                {
+                    "date": "2007-07-15",
+                    "text": "If Ascendant Evincar stops being black, it gives itself -1/-1.",
+                    "_id": "66f5f13b3fd68951ea1556d1"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556d0"
+        },
+        {
+            "name": "Ascendant Evincar",
+            "manaCost": "{4}{B}{B}",
+            "cmc": 6,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Legendary Creature — Phyrexian Vampire Noble",
+            "supertypes": [
+                "Legendary"
+            ],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Phyrexian",
+                "Vampire",
+                "Noble"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nOther black creatures get +1/+1.\nNonblack creatures get -1/-1.",
+            "artist": "Mark Zug",
+            "number": "127★",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "variations": [
+                "bba43f4e-a9eb-5c89-8389-5935a1fbd8b3"
+            ],
+            "rulings": [
+                {
+                    "date": "2007-07-15",
+                    "text": "If Ascendant Evincar stops being black, it gives itself -1/-1.",
+                    "_id": "66f5f13b3fd68951ea1556d3"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556d2"
+        },
+        {
+            "name": "Assassinate",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Destroy target tapped creature.",
+            "artist": "Kev Walker",
+            "number": "128",
+            "layout": "normal",
+            "multiverseid": "135194",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135194&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556d4",
+            "rulings": []
+        },
+        {
+            "name": "Beacon of Unrest",
+            "manaCost": "{3}{B}{B}",
+            "cmc": 5,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Put target artifact or creature card from a graveyard onto the battlefield under your control. Shuffle Beacon of Unrest into its owner's library.",
+            "artist": "Alan Pollack",
+            "number": "129",
+            "layout": "normal",
+            "multiverseid": "135270",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135270&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2020-08-07",
+                    "text": "If the target card is an illegal target by the time Beacon of Unrest tries to resolve, the spell won't resolve. You won't shuffle it into your library.",
+                    "_id": "66f5f13b3fd68951ea1556d6"
+                },
+                {
+                    "date": "2020-08-07",
+                    "text": "In a multiplayer game, if a player leaves the game, all cards that player owns leave as well. If you leave the game, the permanent you control from Beacon of Unrest is exiled.",
+                    "_id": "66f5f13b3fd68951ea1556d7"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556d5"
+        },
+        {
+            "name": "Bog Wraith",
+            "manaCost": "{3}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Wraith",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Wraith"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
+            "artist": "Daarken",
+            "number": "130",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": "129491",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129491&type=card",
+            "variations": [
+                "efaa7c3d-c5e0-5346-b3b2-c6a3d132c27a"
+            ],
+            "_id": "66f5f13b3fd68951ea1556d8",
+            "rulings": []
+        },
+        {
+            "name": "Bog Wraith",
+            "manaCost": "{3}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Wraith",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Wraith"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
+            "artist": "Daarken",
+            "number": "130★",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "variations": [
+                "ac084dab-6ac0-55fa-94b7-e009fede9012"
+            ],
+            "_id": "66f5f13b3fd68951ea1556d9",
+            "rulings": []
+        },
+        {
+            "name": "Consume Spirit",
+            "manaCost": "{X}{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Spend only black mana on X.\nConsume Spirit deals X damage to any target and you gain X life.",
+            "artist": "Matt Thompson",
+            "number": "131",
+            "layout": "normal",
+            "multiverseid": "129505",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129505&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2009-10-01",
+                    "text": "If the targeted permanent or player is an illegal target by the time Consume Spirit would resolve, the entire spell doesn’t resolve. You won’t gain any life.",
+                    "_id": "66f5f13b3fd68951ea1556db"
+                },
+                {
+                    "date": "2009-10-01",
+                    "text": "The amount of life you gain is equal to the number chosen for X, not the amount of damage Consume Spirit deals (in case some of it is prevented).",
+                    "_id": "66f5f13b3fd68951ea1556dc"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556da"
+        },
+        {
+            "name": "Contaminated Bond",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nWhenever enchanted creature attacks or blocks, its controller loses 3 life.",
+            "artist": "Thomas M. Baxa",
+            "number": "132",
+            "layout": "normal",
+            "multiverseid": "129590",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129590&type=card",
+            "variations": [
+                "9c0311e8-03c1-527d-9d90-6fa2dba2aae9"
+            ],
+            "_id": "66f5f13b3fd68951ea1556dd",
+            "rulings": []
+        },
+        {
+            "name": "Contaminated Bond",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nWhenever enchanted creature attacks or blocks, its controller loses 3 life.",
+            "artist": "Thomas M. Baxa",
+            "number": "132★",
+            "layout": "normal",
+            "variations": [
+                "2562f5f1-4de2-5834-a9ff-99092380d910"
+            ],
+            "_id": "66f5f13b3fd68951ea1556de",
+            "rulings": []
+        },
+        {
+            "name": "Cruel Edict",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Target opponent sacrifices a creature.",
+            "artist": "Michael Sutfin",
+            "number": "133",
+            "layout": "normal",
+            "multiverseid": "129514",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129514&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556df",
+            "rulings": []
+        },
+        {
+            "name": "Deathmark",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Destroy target green or white creature.",
+            "artist": "Jeremy Jarvis",
+            "number": "134",
+            "layout": "normal",
+            "multiverseid": "129910",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129910&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556e0",
+            "rulings": []
+        },
+        {
+            "name": "Diabolic Tutor",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Search your library for a card, put that card into your hand, then shuffle.",
+            "artist": "Greg Staples",
+            "number": "135",
+            "layout": "normal",
+            "multiverseid": "129525",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129525&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556e1",
+            "rulings": []
+        },
+        {
+            "name": "Distress",
+            "manaCost": "{B}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Target player reveals their hand. You choose a nonland card from it. That player discards that card.",
+            "artist": "Michael Sutfin",
+            "number": "136",
+            "layout": "normal",
+            "multiverseid": "135219",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135219&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2014-02-01",
+                    "text": "If you target yourself with this spell, you must reveal your entire hand to the other players just as any other player would.",
+                    "_id": "66f5f13b3fd68951ea1556e3"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556e2"
+        },
+        {
+            "name": "Doomed Necromancer",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Human Cleric Mercenary",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Cleric",
+                "Mercenary"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{B}, {T}, Sacrifice Doomed Necromancer: Return target creature card from your graveyard to the battlefield.",
+            "artist": "Volkan Baǵa",
+            "number": "137",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129880",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129880&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2020-08-07",
+                    "text": "Because targets are chosen before costs are paid, Doomed Necromancer can't be the target of its own ability.",
+                    "_id": "66f5f13b3fd68951ea1556e5"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556e4"
+        },
+        {
+            "name": "Dross Crocodile",
+            "manaCost": "{3}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie Crocodile",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie",
+                "Crocodile"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "artist": "Carl Critchlow",
+            "number": "138",
+            "power": "5",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "135216",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135216&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556e6",
+            "rulings": []
+        },
+        {
+            "name": "Drudge Skeletons",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Skeleton",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Skeleton"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+            "artist": "Jim Nelson",
+            "number": "139",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129529",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129529&type=card",
+            "variations": [
+                "1bd70275-068f-5ec2-bc8e-4c5817a1e625",
+                "d9902515-6292-5a4a-9bde-a7616ad5f0bc",
+                "fbd203a0-5dbc-578e-8b26-0a6569bda0c7"
+            ],
+            "_id": "66f5f13b3fd68951ea1556e7",
+            "rulings": []
+        },
+        {
+            "name": "Drudge Skeletons",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Skeleton",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Skeleton"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+            "artist": "Arnie Swekel",
+            "number": "139s",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "variations": [
+                "2d080e75-7e1b-5f75-9c8f-18d02a4710dd",
+                "d9902515-6292-5a4a-9bde-a7616ad5f0bc",
+                "fbd203a0-5dbc-578e-8b26-0a6569bda0c7"
+            ],
+            "_id": "66f5f13b3fd68951ea1556e8",
+            "rulings": []
+        },
+        {
+            "name": "Drudge Skeletons",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Skeleton",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Skeleton"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+            "artist": "Jim Nelson",
+            "number": "139★",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "variations": [
+                "2d080e75-7e1b-5f75-9c8f-18d02a4710dd",
+                "1bd70275-068f-5ec2-bc8e-4c5817a1e625",
+                "fbd203a0-5dbc-578e-8b26-0a6569bda0c7"
+            ],
+            "_id": "66f5f13b3fd68951ea1556e9",
+            "rulings": []
+        },
+        {
+            "name": "Drudge Skeletons",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Skeleton",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Skeleton"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{B}: Regenerate Drudge Skeletons. (The next time this creature would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+            "artist": "Arnie Swekel",
+            "number": "139★s",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "variations": [
+                "2d080e75-7e1b-5f75-9c8f-18d02a4710dd",
+                "1bd70275-068f-5ec2-bc8e-4c5817a1e625",
+                "d9902515-6292-5a4a-9bde-a7616ad5f0bc"
+            ],
+            "_id": "66f5f13b3fd68951ea1556ea",
+            "rulings": []
+        },
+        {
+            "name": "Dusk Imp",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Imp",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Imp"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying",
+            "artist": "Pete Venters",
+            "number": "140",
+            "power": "2",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129490",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129490&type=card",
+            "variations": [
+                "b75509f6-c893-54a7-a51e-757066a0b4da"
+            ],
+            "_id": "66f5f13b3fd68951ea1556eb",
+            "rulings": []
+        },
+        {
+            "name": "Dusk Imp",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Imp",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Imp"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying",
+            "artist": "Pete Venters",
+            "number": "140★",
+            "power": "2",
+            "toughness": "1",
+            "layout": "normal",
+            "variations": [
+                "42022e6f-e123-54a6-84df-ec826b13f5be"
+            ],
+            "_id": "66f5f13b3fd68951ea1556ec",
+            "rulings": []
+        },
+        {
+            "name": "Essence Drain",
+            "manaCost": "{4}{B}",
+            "cmc": 5,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Essence Drain deals 3 damage to any target and you gain 3 life.",
+            "artist": "Jim Nelson",
+            "number": "141",
+            "layout": "normal",
+            "multiverseid": "135191",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135191&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2012-07-01",
+                    "text": "If the target permanent or player is an illegal target when Essence Drain tries to resolve, it won’t resolve and none of its effects will happen. You won’t gain 3 life.",
+                    "_id": "66f5f13b3fd68951ea1556ee"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556ed"
+        },
+        {
+            "name": "Fear",
+            "manaCost": "{B}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
+            "artist": "Adam Rex",
+            "number": "142",
+            "layout": "normal",
+            "multiverseid": "129544",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129544&type=card",
+            "variations": [
+                "f49300ef-efa0-5b82-ace3-f2f06795fbd5"
+            ],
+            "_id": "66f5f13b3fd68951ea1556ef",
+            "rulings": []
+        },
+        {
+            "name": "Fear",
+            "manaCost": "{B}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Enchant creature (Target a creature as you cast this. This card enters the battlefield attached to that creature.)\nEnchanted creature has fear. (It can't be blocked except by artifact creatures and/or black creatures.)",
+            "artist": "Adam Rex",
+            "number": "142★",
+            "layout": "normal",
+            "variations": [
+                "b159e707-915c-5940-bd70-7f0416cc8def"
+            ],
+            "_id": "66f5f13b3fd68951ea1556f0",
+            "rulings": []
+        },
+        {
+            "name": "Festering Goblin",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie Goblin",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie",
+                "Goblin"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Festering Goblin dies, target creature gets -1/-1 until end of turn.",
+            "artist": "Thomas M. Baxa",
+            "number": "143",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129546",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129546&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556f1",
+            "rulings": []
+        },
+        {
+            "name": "Grave Pact",
+            "manaCost": "{1}{B}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Whenever a creature you control dies, each other player sacrifices a creature.",
+            "artist": "Puddnhead",
+            "number": "144",
+            "layout": "normal",
+            "multiverseid": "129583",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129583&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2004-10-04",
+                    "text": "Each other player sacrifices a creature for each creature you control that goes to a graveyard.",
+                    "_id": "66f5f13b3fd68951ea1556f3"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556f2"
+        },
+        {
+            "name": "Graveborn Muse",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie Spirit",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie",
+                "Spirit"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "At the beginning of your upkeep, you draw X cards and you lose X life, where X is the number of Zombies you control.",
+            "artist": "Kev Walker",
+            "number": "145",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": "135256",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135256&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556f4",
+            "rulings": []
+        },
+        {
+            "name": "Gravedigger",
+            "manaCost": "{3}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Gravedigger enters the battlefield, you may return target creature card from your graveyard to your hand.",
+            "artist": "Dermot Power",
+            "number": "146",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129584",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129584&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2009-10-01",
+                    "text": "A “creature card” is any card with the type creature, even if it has other types such as artifact, enchantment, or land. Older cards of type summon are also creature cards.",
+                    "_id": "66f5f13b3fd68951ea1556f6"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556f5"
+        },
+        {
+            "name": "Hate Weaver",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie Wizard",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie",
+                "Wizard"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{2}: Target blue or red creature gets +1/+0 until end of turn.",
+            "artist": "Roger Raupp",
+            "number": "147",
+            "power": "2",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "130995",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=130995&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556f7",
+            "rulings": []
+        },
+        {
+            "name": "Head Games",
+            "manaCost": "{3}{B}{B}",
+            "cmc": 5,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Target opponent puts the cards from their hand on top of their library. Search that player's library for that many cards. The player puts those cards into their hand, then shuffles.",
+            "artist": "Terese Nielsen",
+            "number": "148",
+            "layout": "normal",
+            "multiverseid": "135255",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135255&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556f8",
+            "rulings": []
+        },
+        {
+            "name": "Hidden Horror",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Horror",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Horror"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Hidden Horror enters the battlefield, sacrifice it unless you discard a creature card.",
+            "artist": "Brom",
+            "number": "149",
+            "power": "4",
+            "toughness": "4",
+            "layout": "normal",
+            "multiverseid": "135234",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135234&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2008-04-01",
+                    "text": "If the creature is no longer on the battlefield when the ability resolves, you may still perform the action if you want.",
+                    "_id": "66f5f13b3fd68951ea1556fa"
+                },
+                {
+                    "date": "2008-04-01",
+                    "text": "When the ability resolves, you choose whether to sacrifice the creature or perform the other action. If you can’t perform the other action, then you must sacrifice the creature.",
+                    "_id": "66f5f13b3fd68951ea1556fb"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556f9"
+        },
+        {
+            "name": "Highway Robber",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Human Mercenary",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Mercenary"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Highway Robber enters the battlefield, target opponent loses 2 life and you gain 2 life.",
+            "artist": "Kev Walker",
+            "number": "150",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129564",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129564&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea1556fc",
+            "rulings": []
+        },
+        {
+            "name": "Hypnotic Specter",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Specter",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Specter"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying\nWhenever Hypnotic Specter deals damage to an opponent, that player discards a card at random.",
+            "artist": "Greg Staples",
+            "number": "151",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129600",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129600&type=card",
+            "variations": [
+                "f39b4446-0ca6-5446-8507-4b1ba37bb3e7"
+            ],
+            "rulings": [
+                {
+                    "date": "2008-08-01",
+                    "text": "The ability triggers even if the Specter’s damage is being redirected to an opponent. It does not trigger if damage that would have been dealt to the opponent is redirected to a nonopponent player or a creature, or if the damage is prevented.",
+                    "_id": "66f5f13b3fd68951ea1556fe"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556fd"
+        },
+        {
+            "name": "Hypnotic Specter",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Specter",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Specter"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying\nWhenever Hypnotic Specter deals damage to an opponent, that player discards a card at random.",
+            "artist": "Greg Staples",
+            "number": "151★",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "variations": [
+                "c620a95f-984f-5234-b8f3-a2e359972e85"
+            ],
+            "rulings": [
+                {
+                    "date": "2008-08-01",
+                    "text": "The ability triggers even if the Specter’s damage is being redirected to an opponent. It does not trigger if damage that would have been dealt to the opponent is redirected to a nonopponent player or a creature, or if the damage is prevented.",
+                    "_id": "66f5f13b3fd68951ea155700"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea1556ff"
+        },
+        {
+            "name": "Knight of Dusk",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Human Knight",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Knight"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{B}{B}: Destroy target creature blocking Knight of Dusk.",
+            "artist": "rk post",
+            "number": "152",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129574",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129574&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155701",
+            "rulings": []
+        },
+        {
+            "name": "Looming Shade",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Shade",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Shade"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{B}: Looming Shade gets +1/+1 until end of turn.",
+            "artist": "Kev Walker",
+            "number": "153",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129628",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129628&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155702",
+            "rulings": []
+        },
+        {
+            "name": "Lord of the Pit",
+            "manaCost": "{4}{B}{B}{B}",
+            "cmc": 7,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Demon",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Demon"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.",
+            "artist": "Michael Sutfin",
+            "number": "154",
+            "power": "7",
+            "toughness": "7",
+            "layout": "normal",
+            "multiverseid": "135271",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135271&type=card",
+            "variations": [
+                "ad67ee3e-ce9d-5fd4-845b-a1673f717f8b"
+            ],
+            "rulings": [
+                {
+                    "date": "2017-11-17",
+                    "text": "If Lord of the Pit has gained lifelink, being dealt 7 damage by it doesn’t cause your life total to change, even though you gain and lose life. If your life total is less than 7, you won’t lose the game.",
+                    "_id": "66f5f13b3fd68951ea155704"
+                },
+                {
+                    "date": "2017-11-17",
+                    "text": "If you control any other creatures as Lord of the Pit’s triggered ability resolves, you must sacrifice one. You can’t choose to be dealt 7 damage instead.",
+                    "_id": "66f5f13b3fd68951ea155705"
+                },
+                {
+                    "date": "2017-11-17",
+                    "text": "If you have two Lords of the Pit, you can sacrifice them to each other.",
+                    "_id": "66f5f13b3fd68951ea155706"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155703"
+        },
+        {
+            "name": "Lord of the Pit",
+            "manaCost": "{4}{B}{B}{B}",
+            "cmc": 7,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Demon",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Demon"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying, trample\nAt the beginning of your upkeep, sacrifice a creature other than Lord of the Pit. If you can't, Lord of the Pit deals 7 damage to you.",
+            "artist": "Michael Sutfin",
+            "number": "154★",
+            "power": "7",
+            "toughness": "7",
+            "layout": "normal",
+            "variations": [
+                "50c75c75-4a07-5620-9798-5632fadf09e1"
+            ],
+            "rulings": [
+                {
+                    "date": "2017-11-17",
+                    "text": "If Lord of the Pit has gained lifelink, being dealt 7 damage by it doesn’t cause your life total to change, even though you gain and lose life. If your life total is less than 7, you won’t lose the game.",
+                    "_id": "66f5f13b3fd68951ea155708"
+                },
+                {
+                    "date": "2017-11-17",
+                    "text": "If you control any other creatures as Lord of the Pit’s triggered ability resolves, you must sacrifice one. You can’t choose to be dealt 7 damage instead.",
+                    "_id": "66f5f13b3fd68951ea155709"
+                },
+                {
+                    "date": "2017-11-17",
+                    "text": "If you have two Lords of the Pit, you can sacrifice them to each other.",
+                    "_id": "66f5f13b3fd68951ea15570a"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155707"
+        },
+        {
+            "name": "Lord of the Undead",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Other Zombie creatures get +1/+1.\n{1}{B}, {T}: Return target Zombie card from your graveyard to your hand.",
+            "artist": "Brom",
+            "number": "155",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129629",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129629&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2005-08-01",
+                    "text": "Lord of the Undead now has the Zombie creature type and its first ability has been reworded to affect *other* Zombies. This means that if two Lord of the Undead are on the battlefield, each gives the other a bonus.",
+                    "_id": "66f5f13b3fd68951ea15570c"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15570b"
+        },
+        {
+            "name": "Mass of Ghouls",
+            "manaCost": "{3}{B}{B}",
+            "cmc": 5,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie Warrior",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie",
+                "Warrior"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "artist": "Lucio Parrillo",
+            "number": "156",
+            "power": "5",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": "135218",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135218&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15570d",
+            "rulings": []
+        },
+        {
+            "name": "Megrim",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Whenever an opponent discards a card, Megrim deals 2 damage to that player.",
+            "artist": "Nick Percival",
+            "number": "157",
+            "layout": "normal",
+            "multiverseid": "129640",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129640&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15570e",
+            "rulings": []
+        },
+        {
+            "name": "Midnight Ritual",
+            "manaCost": "{X}{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Exile X target creature cards from your graveyard. For each creature card exiled this way, create a 2/2 black Zombie creature token.",
+            "artist": "Jeff Easley",
+            "number": "158",
+            "layout": "normal",
+            "multiverseid": "135272",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135272&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15570f",
+            "rulings": []
+        },
+        {
+            "name": "Mind Rot",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Target player discards two cards.",
+            "artist": "Steve Luke",
+            "number": "159",
+            "layout": "normal",
+            "multiverseid": "129645",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129645&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155710",
+            "rulings": []
+        },
+        {
+            "name": "Mortal Combat",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "At the beginning of your upkeep, if twenty or more creature cards are in your graveyard, you win the game.",
+            "artist": "Mike Ploog",
+            "number": "160",
+            "layout": "normal",
+            "multiverseid": "135259",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135259&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2007-07-15",
+                    "text": "If you don’t have twenty or more creature cards in your graveyard by the time your upkeep starts, the ability won’t trigger that turn.",
+                    "_id": "66f5f13b3fd68951ea155712"
+                },
+                {
+                    "date": "2007-07-15",
+                    "text": "Mortal Combat’s ability has an “intervening ‘if’ clause,” so the condition is checked again when the triggered ability resolves. If you don’t still have twenty creature cards in your graveyard, the ability does nothing.",
+                    "_id": "66f5f13b3fd68951ea155713"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155711"
+        },
+        {
+            "name": "Mortivore",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Lhurgoyf",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Lhurgoyf"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.\n{B}: Regenerate Mortivore.",
+            "artist": "Anthony S. Waters",
+            "number": "161",
+            "power": "*",
+            "toughness": "*",
+            "layout": "normal",
+            "multiverseid": "129648",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129648&type=card",
+            "variations": [
+                "4cd3a77f-82ac-5204-8f60-b04234d2db30"
+            ],
+            "_id": "66f5f13b3fd68951ea155714",
+            "rulings": []
+        },
+        {
+            "name": "Mortivore",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Lhurgoyf",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Lhurgoyf"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Mortivore's power and toughness are each equal to the number of creature cards in all graveyards.\n{B}: Regenerate Mortivore.",
+            "artist": "Anthony S. Waters",
+            "number": "161★",
+            "power": "*",
+            "toughness": "*",
+            "layout": "normal",
+            "variations": [
+                "889dbfab-bcc2-5a94-ba57-01d229c6dccd"
+            ],
+            "_id": "66f5f13b3fd68951ea155715",
+            "rulings": []
+        },
+        {
+            "name": "Nantuko Husk",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie Insect",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie",
+                "Insect"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Sacrifice a creature: Nantuko Husk gets +2/+2 until end of turn.",
+            "artist": "Carl Critchlow",
+            "number": "162",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129653",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129653&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2015-06-22",
+                    "text": "You can sacrifice Nantuko Husk itself to activate its own ability. However, the only thing that will do is put Nantuko Husk into the graveyard.",
+                    "_id": "66f5f13b3fd68951ea155717"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155716"
+        },
+        {
+            "name": "Nekrataal",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Human Assassin",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Assassin"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "First strike\nWhen Nekrataal enters the battlefield, destroy target nonartifact, nonblack creature. That creature can't be regenerated.",
+            "artist": "Christopher Moeller",
+            "number": "163",
+            "power": "2",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129658",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129658&type=card",
+            "variations": [
+                "37f0071d-09b9-5fdc-a5de-52061a01cb64"
+            ],
+            "rulings": [
+                {
+                    "date": "2016-06-08",
+                    "text": "Nothing happens if there are no nonartifact, nonblack creatures on the battlefield when Nekrataal enters the battlefield, but if there is one, you must target it, even if it’s a creature you control.",
+                    "_id": "66f5f13b3fd68951ea155719"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155718"
+        },
+        {
+            "name": "Nekrataal",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Human Assassin",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Assassin"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "First strike\nWhen Nekrataal enters the battlefield, destroy target nonartifact, nonblack creature. That creature can't be regenerated.",
+            "artist": "Christopher Moeller",
+            "number": "163★",
+            "power": "2",
+            "toughness": "1",
+            "layout": "normal",
+            "variations": [
+                "f560811b-3c5d-5929-8b17-e9ae8730cec1"
+            ],
+            "rulings": [
+                {
+                    "date": "2016-06-08",
+                    "text": "Nothing happens if there are no nonartifact, nonblack creatures on the battlefield when Nekrataal enters the battlefield, but if there is one, you must target it, even if it’s a creature you control.",
+                    "_id": "66f5f13b3fd68951ea15571b"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15571a"
+        },
+        {
+            "name": "Nightmare",
+            "manaCost": "{5}{B}",
+            "cmc": 6,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Nightmare Horse",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Nightmare",
+                "Horse"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nNightmare's power and toughness are each equal to the number of Swamps you control.",
+            "artist": "Carl Critchlow",
+            "number": "164",
+            "power": "*",
+            "toughness": "*",
+            "layout": "normal",
+            "multiverseid": "129659",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129659&type=card",
+            "variations": [
+                "d6fff2c5-c356-543e-9708-3a25de95244a"
+            ],
+            "rulings": [
+                {
+                    "date": "2008-04-01",
+                    "text": "If you control 0 swamps, then the Nightmare has 0 toughness and will be put into its owner’s graveyard as a state-based action right before the next player gains priority.",
+                    "_id": "66f5f13b3fd68951ea15571d"
+                },
+                {
+                    "date": "2009-10-01",
+                    "text": "Nightmare’s power and toughness changes as the number of Swamps you control changes.",
+                    "_id": "66f5f13b3fd68951ea15571e"
+                },
+                {
+                    "date": "2013-07-01",
+                    "text": "Nightmare’s ability counts all lands you control with the subtype Swamp, not just ones named Swamp.",
+                    "_id": "66f5f13b3fd68951ea15571f"
+                },
+                {
+                    "date": "2013-07-01",
+                    "text": "The ability that defines Nightmare’s power and toughness works everywhere, not just on the battlefield.",
+                    "_id": "66f5f13b3fd68951ea155720"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15571c"
+        },
+        {
+            "name": "Nightmare",
+            "manaCost": "{5}{B}",
+            "cmc": 6,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Nightmare Horse",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Nightmare",
+                "Horse"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nNightmare's power and toughness are each equal to the number of Swamps you control.",
+            "artist": "Carl Critchlow",
+            "number": "164★",
+            "power": "*",
+            "toughness": "*",
+            "layout": "normal",
+            "variations": [
+                "5bd291f0-560a-5046-bd07-a91bd3004f2d"
+            ],
+            "rulings": [
+                {
+                    "date": "2008-04-01",
+                    "text": "If you control 0 swamps, then the Nightmare has 0 toughness and will be put into its owner’s graveyard as a state-based action right before the next player gains priority.",
+                    "_id": "66f5f13b3fd68951ea155722"
+                },
+                {
+                    "date": "2009-10-01",
+                    "text": "Nightmare’s power and toughness changes as the number of Swamps you control changes.",
+                    "_id": "66f5f13b3fd68951ea155723"
+                },
+                {
+                    "date": "2013-07-01",
+                    "text": "Nightmare’s ability counts all lands you control with the subtype Swamp, not just ones named Swamp.",
+                    "_id": "66f5f13b3fd68951ea155724"
+                },
+                {
+                    "date": "2013-07-01",
+                    "text": "The ability that defines Nightmare’s power and toughness works everywhere, not just on the battlefield.",
+                    "_id": "66f5f13b3fd68951ea155725"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155721"
+        },
+        {
+            "name": "No Rest for the Wicked",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Sacrifice No Rest for the Wicked: Return to your hand all creature cards in your graveyard that were put there from the battlefield this turn.",
+            "artist": "Carl Critchlow",
+            "number": "165",
+            "layout": "normal",
+            "multiverseid": "136283",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=136283&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2007-07-15",
+                    "text": "If you sacrifice No Rest for the Wicked on the same turn you cast it, all creature cards that were put into your graveyard from the battlefield that turn will be returned to your hand, including any that were put into your graveyard before No Rest for the Wicked entered the battlefield.",
+                    "_id": "66f5f13b3fd68951ea155727"
+                },
+                {
+                    "date": "2007-07-15",
+                    "text": "It doesn’t matter who controlled the creature cards when they were on the battlefield. As long as they were put into your graveyard, you get to put them into your hand.",
+                    "_id": "66f5f13b3fd68951ea155728"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155726"
+        },
+        {
+            "name": "Phage the Untouchable",
+            "manaCost": "{3}{B}{B}{B}{B}",
+            "cmc": 7,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Legendary Creature — Avatar Minion",
+            "supertypes": [
+                "Legendary"
+            ],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Avatar",
+                "Minion"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Phage the Untouchable enters the battlefield, if you didn't cast it from your hand, you lose the game.\nWhenever Phage deals combat damage to a creature, destroy that creature. It can't be regenerated.\nWhenever Phage deals combat damage to a player, that player loses the game.",
+            "artist": "Ron Spears",
+            "number": "166",
+            "power": "4",
+            "toughness": "4",
+            "layout": "normal",
+            "multiverseid": "106427",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=106427&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2004-10-04",
+                    "text": "It is only considered “cast from your hand” if you cast it as a spell from your hand. Putting it onto the battlefield from your hand using a spell or ability will cause you to lose the game.",
+                    "_id": "66f5f13b3fd68951ea15572a"
+                },
+                {
+                    "date": "2013-07-01",
+                    "text": "In a Commander game where this card is your commander, casting it from the Command zone does not count as casting it from your hand.",
+                    "_id": "66f5f13b3fd68951ea15572b"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155729"
+        },
+        {
+            "name": "Phyrexian Rager",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Phyrexian Horror",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Phyrexian",
+                "Horror"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Phyrexian Rager enters the battlefield, you draw a card and you lose 1 life.",
+            "artist": "Mark Tedin",
+            "number": "167",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "135189",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135189&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15572c",
+            "rulings": []
+        },
+        {
+            "name": "Plague Beetle",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Insect",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Insect"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
+            "artist": "Tom Fleming",
+            "number": "168",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129678",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129678&type=card",
+            "variations": [
+                "65b16f51-24dc-5039-9d54-4a00c387fc82"
+            ],
+            "_id": "66f5f13b3fd68951ea15572d",
+            "rulings": []
+        },
+        {
+            "name": "Plague Beetle",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Insect",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Insect"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
+            "artist": "Tom Fleming",
+            "number": "168★",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "variations": [
+                "a29c83ec-1698-5321-b89f-06b782674335"
+            ],
+            "_id": "66f5f13b3fd68951ea15572e",
+            "rulings": []
+        },
+        {
+            "name": "Plague Wind",
+            "manaCost": "{7}{B}{B}",
+            "cmc": 9,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Destroy all creatures you don't control. They can't be regenerated.",
+            "artist": "Alan Pollack",
+            "number": "169",
+            "layout": "normal",
+            "multiverseid": "129679",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129679&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15572f",
+            "rulings": []
+        },
+        {
+            "name": "Rain of Tears",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Destroy target land.",
+            "artist": "Eric Peterson",
+            "number": "170",
+            "layout": "normal",
+            "multiverseid": "135220",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135220&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155730",
+            "rulings": []
+        },
+        {
+            "name": "Ravenous Rats",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Rat",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Rat"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Ravenous Rats enters the battlefield, target opponent discards a card.",
+            "artist": "Carl Critchlow",
+            "number": "171",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129692",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129692&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155731",
+            "rulings": []
+        },
+        {
+            "name": "Recover",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Return target creature card from your graveyard to your hand.\nDraw a card.",
+            "artist": "Nelson DeCastro",
+            "number": "172",
+            "layout": "normal",
+            "multiverseid": "135188",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135188&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155732",
+            "rulings": []
+        },
+        {
+            "name": "Relentless Rats",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Rat",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Rat"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Relentless Rats gets +1/+1 for each other creature on the battlefield named Relentless Rats.\nA deck can have any number of cards named Relentless Rats.",
+            "artist": "Thomas M. Baxa",
+            "number": "173",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "135236",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135236&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2021-03-19",
+                    "text": "Because damage remains marked on a creature until the damage is removed as the turn ends, nonlethal damage dealt to one Relentless Rats may become lethal if another Relentless Rats leaves the battlefield during that turn.",
+                    "_id": "66f5f13b3fd68951ea155734"
+                },
+                {
+                    "date": "2021-03-19",
+                    "text": "The last ability of Relentless Rats lets you ignore the \"four-of\" rule. It doesn't let you ignore format legality. For example, during a Time Spiral Remastered Limited event, you can't add Relentless Rats from your personal collection.",
+                    "_id": "66f5f13b3fd68951ea155735"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155733"
+        },
+        {
+            "name": "Royal Assassin",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Human Assassin",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Assassin"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{T}: Destroy target tapped creature.",
+            "artist": "Mark Zug",
+            "number": "174",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "129708",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129708&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2004-10-04",
+                    "text": "Can't target itself because you choose the target before you tap him. At that time he is not yet a legal target.",
+                    "_id": "66f5f13b3fd68951ea155737"
+                },
+                {
+                    "date": "2004-10-04",
+                    "text": "If the creature is no longer tapped when the Assassin's ability resolves, then the ability doesn't resolve.",
+                    "_id": "66f5f13b3fd68951ea155738"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155736"
+        },
+        {
+            "name": "Scathe Zombies",
+            "manaCost": "{2}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "artist": "Kev Walker",
+            "number": "175",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129718",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129718&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155739",
+            "rulings": []
+        },
+        {
+            "name": "Sengir Vampire",
+            "manaCost": "{3}{B}{B}",
+            "cmc": 5,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Vampire",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Vampire"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire.",
+            "artist": "Kev Walker",
+            "number": "176",
+            "power": "4",
+            "toughness": "4",
+            "layout": "normal",
+            "multiverseid": "129724",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129724&type=card",
+            "variations": [
+                "47fe8296-36c6-5338-b239-9fa0cceba156"
+            ],
+            "rulings": [
+                {
+                    "date": "2007-07-15",
+                    "text": "If Sengir Vampire deals nonlethal damage to a creature and then a different effect or damage source causes that creature to be put into a graveyard later in the turn, Sengir Vampire's ability will trigger and it will get a +1/+1 counter.",
+                    "_id": "66f5f13b3fd68951ea15573b"
+                },
+                {
+                    "date": "2011-09-22",
+                    "text": "Each time a creature is put into a graveyard from the battlefield, check whether Sengir Vampire had dealt any damage to it at any time during that turn. If so, Sengir Vampire's ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.",
+                    "_id": "66f5f13b3fd68951ea15573c"
+                },
+                {
+                    "date": "2011-09-22",
+                    "text": "If Sengir Vampire and a creature it dealt damage to are both put into a graveyard at the same time, Sengir Vampire's ability will trigger, but it will do nothing when it resolves.",
+                    "_id": "66f5f13b3fd68951ea15573d"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15573a"
+        },
+        {
+            "name": "Sengir Vampire",
+            "manaCost": "{3}{B}{B}",
+            "cmc": 5,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Vampire",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Vampire"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\nWhenever a creature dealt damage by Sengir Vampire this turn dies, put a +1/+1 counter on Sengir Vampire.",
+            "artist": "Kev Walker",
+            "number": "176★",
+            "power": "4",
+            "toughness": "4",
+            "layout": "normal",
+            "variations": [
+                "74fa21a6-66f3-5395-a95f-19e9f0b1d24b"
+            ],
+            "rulings": [
+                {
+                    "date": "2007-07-15",
+                    "text": "If Sengir Vampire deals nonlethal damage to a creature and then a different effect or damage source causes that creature to be put into a graveyard later in the turn, Sengir Vampire's ability will trigger and it will get a +1/+1 counter.",
+                    "_id": "66f5f13b3fd68951ea15573f"
+                },
+                {
+                    "date": "2011-09-22",
+                    "text": "Each time a creature is put into a graveyard from the battlefield, check whether Sengir Vampire had dealt any damage to it at any time during that turn. If so, Sengir Vampire's ability will trigger. It doesn't matter who controlled the creature or whose graveyard it was put into.",
+                    "_id": "66f5f13b3fd68951ea155740"
+                },
+                {
+                    "date": "2011-09-22",
+                    "text": "If Sengir Vampire and a creature it dealt damage to are both put into a graveyard at the same time, Sengir Vampire's ability will trigger, but it will do nothing when it resolves.",
+                    "_id": "66f5f13b3fd68951ea155741"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15573e"
+        },
+        {
+            "name": "Severed Legion",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",
+            "artist": "Dany Orizio",
+            "number": "177",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129693",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129693&type=card",
+            "variations": [
+                "285ed705-6771-5dc8-8076-c252fe984278"
+            ],
+            "_id": "66f5f13b3fd68951ea155742",
+            "rulings": []
+        },
+        {
+            "name": "Severed Legion",
+            "manaCost": "{1}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Zombie",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Zombie"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Fear (This creature can't be blocked except by artifact creatures and/or black creatures.)",
+            "artist": "Dany Orizio",
+            "number": "177★",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "variations": [
+                "e9cf9c31-aa62-53f4-bff2-71cd5e2f4004"
+            ],
+            "_id": "66f5f13b3fd68951ea155743",
+            "rulings": []
+        },
+        {
+            "name": "Sleeper Agent",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Phyrexian Minion",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Phyrexian",
+                "Minion"
+            ],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "When Sleeper Agent enters the battlefield, target opponent gains control of it.\nAt the beginning of your upkeep, Sleeper Agent deals 2 damage to you.",
+            "artist": "Randy Gallegos",
+            "number": "178",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": "129803",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129803&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2004-10-04",
+                    "text": "This card is a bit weird. When it enters the battlefield under your control, you give control of it to an opponent. After that it damages them each turn because the “you” on the card means its controller.",
+                    "_id": "66f5f13b3fd68951ea155745"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155744"
+        },
+        {
+            "name": "Soul Feast",
+            "manaCost": "{3}{B}{B}",
+            "cmc": 5,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Target player loses 4 life and you gain 4 life.",
+            "artist": "Adam Rex",
+            "number": "179",
+            "layout": "normal",
+            "multiverseid": "129739",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129739&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155746",
+            "rulings": []
+        },
+        {
+            "name": "Spineless Thug",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Phyrexian Zombie Mercenary",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Phyrexian",
+                "Zombie",
+                "Mercenary"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Spineless Thug can't block.",
+            "artist": "Matthew D. Wilson",
+            "number": "180",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "129743",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129743&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155747",
+            "rulings": []
+        },
+        {
+            "name": "Stronghold Discipline",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Each player loses 1 life for each creature they control.",
+            "artist": "Daarken",
+            "number": "181",
+            "layout": "normal",
+            "multiverseid": "135197",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135197&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155748",
+            "rulings": []
+        },
+        {
+            "name": "Terror",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Instant",
+            "supertypes": [],
+            "types": [
+                "Instant"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Destroy target nonartifact, nonblack creature. It can't be regenerated.",
+            "artist": "Adam Rex",
+            "number": "182",
+            "layout": "normal",
+            "multiverseid": "135199",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135199&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155749",
+            "rulings": []
+        },
+        {
+            "name": "Thrull Surgeon",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Thrull",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Thrull"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{1}{B}, Sacrifice Thrull Surgeon: Look at target player's hand and choose a card from it. That player discards that card. Activate only as a sorcery.",
+            "artist": "rk post",
+            "number": "183",
+            "power": "1",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "136282",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=136282&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15574a",
+            "rulings": []
+        },
+        {
+            "name": "Underworld Dreams",
+            "manaCost": "{B}{B}{B}",
+            "cmc": 3,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Whenever an opponent draws a card, Underworld Dreams deals 1 damage to that player.",
+            "artist": "Carl Critchlow",
+            "number": "184",
+            "layout": "normal",
+            "multiverseid": "129779",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129779&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2004-10-04",
+                    "text": "If multiple cards are drawn at once, this card triggers once for each card drawn.",
+                    "_id": "66f5f13b3fd68951ea15574c"
+                },
+                {
+                    "date": "2004-10-04",
+                    "text": "In a multi-player game, it affects all opponents.",
+                    "_id": "66f5f13b3fd68951ea15574d"
+                },
+                {
+                    "date": "2020-01-24",
+                    "text": "If a spell or ability causes you to put cards into your hand without specifically using the word “draw,” it’s not a card drawn.",
+                    "_id": "66f5f13b3fd68951ea15574e"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15574b"
+        },
+        {
+            "name": "Unholy Strength",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Enchant creature\nEnchanted creature gets +2/+1.",
+            "artist": "Terese Nielsen",
+            "number": "185",
+            "layout": "normal",
+            "multiverseid": "129780",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129780&type=card",
+            "variations": [
+                "27d4596d-3c6c-5d6e-a978-424044a468d4"
+            ],
+            "_id": "66f5f13b3fd68951ea15574f",
+            "rulings": []
+        },
+        {
+            "name": "Unholy Strength",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Enchant creature\nEnchanted creature gets +2/+1.",
+            "artist": "Terese Nielsen",
+            "number": "185★",
+            "layout": "normal",
+            "variations": [
+                "53d6532f-43a4-5c01-891c-3ff67a49d290"
+            ],
+            "_id": "66f5f13b3fd68951ea155750",
+            "rulings": []
+        },
+        {
+            "name": "Vampire Bats",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Bat",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Bat"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Vampire Bats gets +1/+0 until end of turn. Activate no more than twice each turn.",
+            "artist": "Chippy",
+            "number": "186",
+            "power": "0",
+            "toughness": "1",
+            "layout": "normal",
+            "multiverseid": "135195",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135195&type=card",
+            "variations": [
+                "e65aae37-20bc-5499-aee4-c1f30832f7b0"
+            ],
+            "_id": "66f5f13b3fd68951ea155751",
+            "rulings": []
+        },
+        {
+            "name": "Vampire Bats",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Bat",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Bat"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Flying (This creature can't be blocked except by creatures with flying or reach.)\n{B}: Vampire Bats gets +1/+0 until end of turn. Activate no more than twice each turn.",
+            "artist": "Chippy",
+            "number": "186★",
+            "power": "0",
+            "toughness": "1",
+            "layout": "normal",
+            "variations": [
+                "4c9c45db-116c-59e0-a708-d471e38c6361"
+            ],
+            "_id": "66f5f13b3fd68951ea155752",
+            "rulings": []
+        },
+        {
+            "name": "Composite Golem",
+            "manaCost": "{6}",
+            "cmc": 6,
+            "colors": [],
+            "colorIdentity": [
+                "B",
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "type": "Artifact Creature — Golem",
+            "supertypes": [],
+            "types": [
+                "Artifact",
+                "Creature"
+            ],
+            "subtypes": [
+                "Golem"
+            ],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Sacrifice Composite Golem: Add {W}{U}{B}{R}{G}.",
+            "artist": "Mark Tedin",
+            "number": "318",
+            "power": "4",
+            "toughness": "4",
+            "layout": "normal",
+            "multiverseid": "135275",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135275&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155753",
+            "rulings": []
+        },
+        {
+            "name": "Legacy Weapon",
+            "manaCost": "{7}",
+            "cmc": 7,
+            "colors": [],
+            "colorIdentity": [
+                "B",
+                "G",
+                "R",
+                "U",
+                "W"
+            ],
+            "type": "Legendary Artifact",
+            "supertypes": [
+                "Legendary"
+            ],
+            "types": [
+                "Artifact"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{W}{U}{B}{R}{G}: Exile target permanent.\nIf Legacy Weapon would be put into a graveyard from anywhere, reveal Legacy Weapon and shuffle it into its owner's library instead.",
+            "artist": "Terese Nielsen",
+            "number": "330",
+            "layout": "normal",
+            "multiverseid": "135242",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=135242&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155754",
+            "rulings": []
+        },
+        {
+            "name": "Caves of Koilos",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B",
+                "W"
+            ],
+            "type": "Land",
+            "supertypes": [],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{T}: Add {C}.\n{T}: Add {W} or {B}. Caves of Koilos deals 1 damage to you.",
+            "artist": "Jim Nelson",
+            "number": "350",
+            "layout": "normal",
+            "multiverseid": "129497",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129497&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2015-06-22",
+                    "text": "Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.",
+                    "_id": "66f5f13b3fd68951ea155756"
+                },
+                {
+                    "date": "2015-06-22",
+                    "text": "The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.",
+                    "_id": "66f5f13b3fd68951ea155757"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155755"
+        },
+        {
+            "name": "Llanowar Wastes",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B",
+                "G"
+            ],
+            "type": "Land",
+            "supertypes": [],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{T}: Add {C}.\n{T}: Add {B} or {G}. Llanowar Wastes deals 1 damage to you.",
+            "artist": "Rob Alexander",
+            "number": "355",
+            "layout": "normal",
+            "multiverseid": "129627",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129627&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2015-06-22",
+                    "text": "Like most lands, each land in this cycle is colorless. The damage dealt to you is dealt by a colorless source.",
+                    "_id": "66f5f13b3fd68951ea155759"
+                },
+                {
+                    "date": "2015-06-22",
+                    "text": "The damage dealt to you is part of the second mana ability. It doesn't use the stack and can't be responded to.",
+                    "_id": "66f5f13b3fd68951ea15575a"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155758"
+        },
+        {
+            "name": "Spawning Pool",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Land",
+            "supertypes": [],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Spawning Pool enters the battlefield tapped.\n{T}: Add {B}.\n{1}{B}: Spawning Pool becomes a 1/1 black Skeleton creature with \"{B}: Regenerate this creature\" until end of turn. It's still a land. (If it regenerates, the next time it would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+            "artist": "Nils Hamm",
+            "number": "358",
+            "layout": "normal",
+            "multiverseid": "106556",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=106556&type=card",
+            "variations": [
+                "85e3e30b-c47d-5606-a6fd-0b4a9931de79"
+            ],
+            "rulings": [
+                {
+                    "date": "2008-08-01",
+                    "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.",
+                    "_id": "66f5f13b3fd68951ea15575c"
+                },
+                {
+                    "date": "2009-10-01",
+                    "text": "Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.",
+                    "_id": "66f5f13b3fd68951ea15575d"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15575b"
+        },
+        {
+            "name": "Spawning Pool",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Land",
+            "supertypes": [],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [],
+            "rarity": "Uncommon",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "Spawning Pool enters the battlefield tapped.\n{T}: Add {B}.\n{1}{B}: Spawning Pool becomes a 1/1 black Skeleton creature with \"{B}: Regenerate this creature\" until end of turn. It's still a land. (If it regenerates, the next time it would be destroyed this turn, it isn't. Instead tap it, remove all damage from it, and remove it from combat.)",
+            "artist": "Nils Hamm",
+            "number": "358★",
+            "layout": "normal",
+            "variations": [
+                "0f3d794f-2e02-5fa8-b9a7-8ffa74f9615d"
+            ],
+            "rulings": [
+                {
+                    "date": "2008-08-01",
+                    "text": "A noncreature permanent that turns into a creature can attack, and its {T} abilities can be activated, only if its controller has continuously controlled that permanent since the beginning of their most recent turn. It doesn’t matter how long the permanent has been a creature.",
+                    "_id": "66f5f13b3fd68951ea15575f"
+                },
+                {
+                    "date": "2009-10-01",
+                    "text": "Activating the ability that turns it into a creature while it’s already a creature will override any effects that set its power and/or toughness to a specific number. However, any effect that raises or lowers power and/or toughness (such as the effect created by Giant Growth, Glorious Anthem, or a +1/+1 counter) will continue to apply.",
+                    "_id": "66f5f13b3fd68951ea155760"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea15575e"
+        },
+        {
+            "name": "Sulfurous Springs",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B",
+                "R"
+            ],
+            "type": "Land",
+            "supertypes": [],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{T}: Add {C}.\n{T}: Add {B} or {R}. Sulfurous Springs deals 1 damage to you.",
+            "artist": "Rob Alexander",
+            "number": "359",
+            "layout": "normal",
+            "multiverseid": "129751",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129751&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155761",
+            "rulings": []
+        },
+        {
+            "name": "Underground River",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B",
+                "U"
+            ],
+            "type": "Land",
+            "supertypes": [],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "{T}: Add {C}.\n{T}: Add {U} or {B}. Underground River deals 1 damage to you.",
+            "artist": "Andrew Goldhawk",
+            "number": "362",
+            "layout": "normal",
+            "multiverseid": "129778",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129778&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155762",
+            "rulings": []
+        },
+        {
+            "name": "Swamp",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Basic Land — Swamp",
+            "supertypes": [
+                "Basic"
+            ],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [
+                "Swamp"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "({T}: Add {B}.)",
+            "artist": "John Avon",
+            "number": "372",
+            "layout": "normal",
+            "multiverseid": "129754",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129754&type=card",
+            "variations": [
+                "4b3673bc-4f31-5877-9710-44d875dcca8a",
+                "3e951ede-39fc-58c6-8a89-e2c320902ddd",
+                "eedae11d-cb7c-5b59-bcdd-419e3d6311a1"
+            ],
+            "_id": "66f5f13b3fd68951ea155763",
+            "rulings": []
+        },
+        {
+            "name": "Swamp",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Basic Land — Swamp",
+            "supertypes": [
+                "Basic"
+            ],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [
+                "Swamp"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "({T}: Add {B}.)",
+            "artist": "Ron Spencer",
+            "number": "373",
+            "layout": "normal",
+            "multiverseid": "129755",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129755&type=card",
+            "variations": [
+                "ec72e59f-bc37-50fd-a1b5-3afac5a402b3",
+                "3e951ede-39fc-58c6-8a89-e2c320902ddd",
+                "eedae11d-cb7c-5b59-bcdd-419e3d6311a1"
+            ],
+            "_id": "66f5f13b3fd68951ea155764",
+            "rulings": []
+        },
+        {
+            "name": "Swamp",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Basic Land — Swamp",
+            "supertypes": [
+                "Basic"
+            ],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [
+                "Swamp"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "({T}: Add {B}.)",
+            "artist": "Jim Nelson",
+            "number": "374",
+            "layout": "normal",
+            "multiverseid": "129756",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129756&type=card",
+            "variations": [
+                "ec72e59f-bc37-50fd-a1b5-3afac5a402b3",
+                "4b3673bc-4f31-5877-9710-44d875dcca8a",
+                "eedae11d-cb7c-5b59-bcdd-419e3d6311a1"
+            ],
+            "_id": "66f5f13b3fd68951ea155765",
+            "rulings": []
+        },
+        {
+            "name": "Swamp",
+            "cmc": 0,
+            "colors": [],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Basic Land — Swamp",
+            "supertypes": [
+                "Basic"
+            ],
+            "types": [
+                "Land"
+            ],
+            "subtypes": [
+                "Swamp"
+            ],
+            "rarity": "Common",
+            "set": "10E",
+            "setName": "Tenth Edition",
+            "text": "({T}: Add {B}.)",
+            "artist": "Richard Wright",
+            "number": "375",
+            "layout": "normal",
+            "multiverseid": "129757",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=129757&type=card",
+            "variations": [
+                "ec72e59f-bc37-50fd-a1b5-3afac5a402b3",
+                "4b3673bc-4f31-5877-9710-44d875dcca8a",
+                "3e951ede-39fc-58c6-8a89-e2c320902ddd"
+            ],
+            "_id": "66f5f13b3fd68951ea155766",
+            "rulings": []
+        },
+        {
+            "name": "Animate Dead",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Uncommon",
+            "set": "2ED",
+            "setName": "Unlimited Edition",
+            "text": "Enchant creature card in a graveyard\nWhen Animate Dead enters the battlefield, if it's on the battlefield, it loses \"enchant creature card in a graveyard\" and gains \"enchant creature put onto the battlefield with Animate Dead.\" Return enchanted creature card to the battlefield under your control and attach Animate Dead to it. When Animate Dead leaves the battlefield, that creature's controller sacrifices it.\nEnchanted creature gets -1/-0.",
+            "artist": "Anson Maddocks",
+            "number": "93",
+            "layout": "normal",
+            "multiverseid": "645",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=645&type=card",
+            "variations": [],
+            "rulings": [
+                {
+                    "date": "2016-06-08",
+                    "text": "Abilities such as shroud and protection function only on the battlefield unless otherwise specified. A creature card with shroud may be targeted by Animate Dead, and Animate Dead will become attached to the creature that enters the battlefield.",
+                    "_id": "66f5f13b3fd68951ea155768"
+                },
+                {
+                    "date": "2016-06-08",
+                    "text": "Animate Dead is an Aura, albeit with an unusual enchant ability. You target a creature card in a graveyard when you cast it. It enters the battlefield attached to that card. Then it returns that card to the battlefield, and attaches itself to the card again (since the card is a new object on the battlefield). Animate Dead itself never moves into a graveyard during this process.",
+                    "_id": "66f5f13b3fd68951ea155769"
+                },
+                {
+                    "date": "2016-06-08",
+                    "text": "If Animate Dead isn't on the battlefield as its triggered ability resolves, none of its effects happen. The creature card won't be returned to the battlefield.",
+                    "_id": "66f5f13b3fd68951ea15576a"
+                },
+                {
+                    "date": "2016-06-08",
+                    "text": "If the creature put onto the battlefield has protection from black—or if the creature can't legally be enchanted by Animate Dead for another reason—Animate Dead won't be able to attach to it. It will be put into the graveyard as a state-based action, causing its delayed triggered ability to trigger. When the trigger resolves, if the creature's still on the battlefield, its controller will sacrifice it.",
+                    "_id": "66f5f13b3fd68951ea15576b"
+                },
+                {
+                    "date": "2016-06-08",
+                    "text": "Once the creature is returned to the battlefield, Animate Dead can't be attached to anything other than it (unless Animate Dead somehow manages to put a different creature onto the battlefield). Attempting to move Animate Dead to another creature won't work.",
+                    "_id": "66f5f13b3fd68951ea15576c"
+                }
+            ],
+            "_id": "66f5f13b3fd68951ea155767"
+        },
+        {
+            "name": "Bad Moon",
+            "manaCost": "{1}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "2ED",
+            "setName": "Unlimited Edition",
+            "text": "Black creatures get +1/+1.",
+            "artist": "Jesper Myrfors",
+            "number": "94",
+            "layout": "normal",
+            "multiverseid": "646",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=646&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15576d",
+            "rulings": []
+        },
+        {
+            "name": "Black Knight",
+            "manaCost": "{B}{B}",
+            "cmc": 2,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Human Knight",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Human",
+                "Knight"
+            ],
+            "rarity": "Uncommon",
+            "set": "2ED",
+            "setName": "Unlimited Edition",
+            "text": "First strike (This creature deals combat damage before creatures without first strike.)\nProtection from white (This creature can't be blocked, targeted, dealt damage, or enchanted by anything white.)",
+            "artist": "Jeff A. Menges",
+            "number": "95",
+            "power": "2",
+            "toughness": "2",
+            "layout": "normal",
+            "multiverseid": "647",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=647&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15576e",
+            "rulings": []
+        },
+        {
+            "name": "Bog Wraith",
+            "manaCost": "{3}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Creature — Wraith",
+            "supertypes": [],
+            "types": [
+                "Creature"
+            ],
+            "subtypes": [
+                "Wraith"
+            ],
+            "rarity": "Uncommon",
+            "set": "2ED",
+            "setName": "Unlimited Edition",
+            "text": "Swampwalk (This creature can't be blocked as long as defending player controls a Swamp.)",
+            "artist": "Jeff A. Menges",
+            "number": "96",
+            "power": "3",
+            "toughness": "3",
+            "layout": "normal",
+            "multiverseid": "648",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=648&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea15576f",
+            "rulings": []
+        },
+        {
+            "name": "Contract from Below",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Sorcery",
+            "supertypes": [],
+            "types": [
+                "Sorcery"
+            ],
+            "subtypes": [],
+            "rarity": "Rare",
+            "set": "2ED",
+            "setName": "Unlimited Edition",
+            "text": "Remove Contract from Below from your deck before playing if you're not playing for ante.\nDiscard your hand, ante the top card of your library, then draw seven cards.",
+            "artist": "Douglas Shuler",
+            "number": "97",
+            "layout": "normal",
+            "multiverseid": "649",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=649&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155770",
+            "rulings": []
+        },
+        {
+            "name": "Cursed Land",
+            "manaCost": "{2}{B}{B}",
+            "cmc": 4,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Enchantment — Aura",
+            "supertypes": [],
+            "types": [
+                "Enchantment"
+            ],
+            "subtypes": [
+                "Aura"
+            ],
+            "rarity": "Uncommon",
+            "set": "2ED",
+            "setName": "Unlimited Edition",
+            "text": "Enchant land\nAt the beginning of the upkeep of enchanted land's controller, Cursed Land deals 1 damage to that player.",
+            "artist": "Jesper Myrfors",
+            "number": "98",
+            "layout": "normal",
+            "multiverseid": "650",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=650&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155771",
+            "rulings": []
+        },
+        {
+            "name": "Dark Ritual",
+            "manaCost": "{B}",
+            "cmc": 1,
+            "colors": [
+                "B"
+            ],
+            "colorIdentity": [
+                "B"
+            ],
+            "type": "Instant",
+            "supertypes": [],
+            "types": [
+                "Instant"
+            ],
+            "subtypes": [],
+            "rarity": "Common",
+            "set": "2ED",
+            "setName": "Unlimited Edition",
+            "text": "Add {B}{B}{B}.",
+            "artist": "Sandra Everingham",
+            "number": "99",
+            "layout": "normal",
+            "multiverseid": "651",
+            "imageUrl": "http://gatherer.wizards.com/Handlers/Image.ashx?multiverseid=651&type=card",
+            "variations": [],
+            "_id": "66f5f13b3fd68951ea155772",
+            "rulings": []
+        }
+    ]
+}
