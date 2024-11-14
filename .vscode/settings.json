@@ -1,5 +1,6 @@
 {
     "conventionalCommits.scopes": [
-        "add: gitignore"
+        "add: gitignore",
+        "add: dependencias na stack do readme"
     ]
 }
