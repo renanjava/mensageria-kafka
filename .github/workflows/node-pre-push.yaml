@@ -17,7 +17,7 @@ jobs:
           node-version: 20.11.1
       - name: Instala as dependencias
         run: npm i
-        working-directory: nestjs
+        working-directory: magic-api
       - name: Roda o linter
         run: npm run lint
-        working-directory: nestjs
+        working-directory: magic-api
