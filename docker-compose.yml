@@ -1,6 +1,30 @@
 version: '3'
+
 services:
   nginx-server:
     build: ./nginx
     ports:
       - 80:80
+    networks:
+      - "my-bridge"
+    depends_on:
+      - "magic_api-service"
+      - "kafka-service"
+  
+  magic_api-service:
+    build: ./magic-api
+    ports:
+      - 3000:3000
+    networks:
+      - "my-bridge"
+  
+  kafka-service:
+    build: ./kafka
+    ports:
+      - 3001:3001
+    networks:
+      - "my-bridge"
+
+networks:
+  my-bridge:
+    driver: bridge
