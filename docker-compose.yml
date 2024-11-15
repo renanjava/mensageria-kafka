@@ -1,4 +1,4 @@
-version: '3'
+version: "3"
 
 services:
   nginx-server:
@@ -10,14 +10,16 @@ services:
     depends_on:
       - "magic_api-service"
       - "kafka-service"
-  
+
   magic_api-service:
     build: ./magic-api
     ports:
       - 3000:3000
     networks:
       - "my-bridge"
-  
+    env_file:
+      - ./magic-api/.env
+
   kafka-service:
     build: ./kafka
     ports:

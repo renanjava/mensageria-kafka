@@ -1,15 +1,12 @@
-FROM node:20
+FROM node:20.18.0
 
 WORKDIR /app
 
-EXPOSE 3000
-
-ENV SECRET_KEY=SECRET_KEY
-
-COPY package.json /app
+COPY package.json package-lock.json ./
 RUN npm install
 
-COPY ./src/auth /app/src
-COPY tsconfig.build.json /app
+COPY . .
+
+EXPOSE 3000
 
 CMD ["npm", "run", "start"]
