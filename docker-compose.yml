@@ -1,0 +1,52 @@
+version: "3"
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: mongodb_container
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongodb_data:/data/db
+    networks:
+      - "my-bridge"
+
+  nginx-server:
+    build: ./nginx
+    container_name: nginx_container
+    ports:
+      - 80:80
+    networks:
+      - "my-bridge"
+    depends_on:
+      - "magic_api-service"
+      - "kafka-service"
+
+  magic_api-service:
+    build: ./magic-api
+    container_name: magic_api_container
+    ports:
+      - 3000:3000
+    networks:
+      - "my-bridge"
+    env_file:
+      - ./magic-api/.env
+    depends_on:
+      - "mongodb"
+    environment:
+      DATABASE_URL: mongodb://mongodb:27017/mtg
+
+  kafka-service:
+    build: ./kafka
+    container_name: kafka_container
+    ports:
+      - 3001:3001
+    networks:
+      - "my-bridge"
+
+networks:
+  my-bridge:
+    driver: bridge
+
+volumes:
+  mongodb_data:

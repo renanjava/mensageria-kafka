@@ -6,7 +6,7 @@ import { ConfigModule } from '@nestjs/config';
 
 @Module({
   imports: [
-    MongooseModule.forRoot('mongodb://0.0.0.0:27017/mtg'),
+    MongooseModule.forRoot('mongodb://mongodb:27017/mtg'),
     UserModule,
     DecksModule,
     ConfigModule.forRoot({ isGlobal: true }),
