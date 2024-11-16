@@ -23,7 +23,9 @@ services:
       - "kafka-service"
 
   magic_api-service:
-    build: ./magic-api
+    build:
+      context: ./magic-api
+      target: production
     container_name: magic_api_container
     ports:
       - 3000:3000
