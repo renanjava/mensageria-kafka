@@ -1,0 +1,30 @@
+name: "Construção do artefato"
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.12.2'
+
+      - name: Instalar as dependencias Node
+        run: npm install
+
+      - name: Buildar o projeto Node
+        run: npm run build
+
+      - name: Projeto compilado
+        uses: actions/upload-artifact@v4
+        with:
+          name: projeto_compilado
+          path: dist
+
+
