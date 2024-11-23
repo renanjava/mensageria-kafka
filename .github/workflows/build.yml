@@ -9,6 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build the stack
+        run: docker-compose up -d
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
@@ -24,4 +26,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: latest,${{ github.sha }}
+          tags: renancesu/mensageria-kafka:latest,${{ github.sha }}
