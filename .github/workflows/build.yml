@@ -16,10 +16,10 @@ jobs:
           node-version: '20.12.2'
 
       - name: Instalar as dependencias Node
-        run: npm install
+        run: cd magic-api/ && npm install
 
       - name: Buildar o projeto Node
-        run: npm run build
+        run: cd magic-api/ && npm run build
 
       - name: Projeto compilado
         uses: actions/upload-artifact@v4

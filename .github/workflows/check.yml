@@ -16,7 +16,7 @@ jobs:
         node-version: '20.12.2'
 
     - name: Install dependencies
-      run: npm install
+      run: cd magic-api/ && npm install
 
     - name: Run ESLint
-      run: npm run lint
+      run: cd magic-api/ && npm run lint
